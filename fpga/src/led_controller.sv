@@ -2,7 +2,7 @@
 //
 //
 
-module led_controller (input logic clk,
+module led_controller (input logic int_ocs, reset,
                         input logic [3:0] s,
                         output logic [2:0] led);
 
@@ -14,14 +14,19 @@ module led_controller (input logic clk,
         begin
             //48MHz / 2.4Hz = 20 million...
             //Waiting 20 million clock cycles will produce a 2.4 Hz signal
-            if (counter == 20000000) 
+            if (reset)
+                begin
+                    counter <= 0;
+                    led[2] <= led[2];
+                end
+            (counter == 20000000) 
                 begin 
                     counter <= 0;
-                    led[2] <= 1;
+                    led[2] <= ~led[2];
                 end
             else  
                 counter <= counter + 1;
-                led[2] <= 0;
+                led[2] <= led[2];
         end
 
     //perform logic for led[1:0]
