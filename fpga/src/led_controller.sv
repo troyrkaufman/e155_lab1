@@ -2,11 +2,11 @@
 //
 //
 
-module led_controller (input logic clk,
+module led_controller (input logic int_osc, reset,
                         input logic [3:0] s,
                         output logic [2:0] led);
 
-    logic [20:0] counter = 21'b0;
+    logic [23:0] counter;
 
     //create a clock divider to set led[2] at 2.4 Hz
     //clk is set at 48 MHz
@@ -14,10 +14,18 @@ module led_controller (input logic clk,
         begin
             //48MHz / 2.4Hz = 20 million...
             //Waiting 20 million clock cycles will produce a 2.4 Hz signal
-            if (counter == 20000000) 
+            if (reset)
+                counter <= 0;
+                led[2] <= 0;
+            else if (counter >= 'd20000000) 
                 begin 
-                    counter <= 0;
+                    counter <= 1;
                     led[2] <= 1;
+                    if (counter == 'd40000000)
+                        begin
+                            counter <= 0;
+                            led[2] <= 0;
+                        end
                 end
             else  
                 counter <= counter + 1;
