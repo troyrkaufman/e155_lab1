@@ -14,7 +14,8 @@ module lab1_tk (input logic reset,
     // Internal high-speed oscillator
 	HSOSC #(.CLKHF_DIV(2'b01)) hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
 
-    led_controller led1(.int_osc(int_osc), .reset(reset) .s(s), .led(led));
+    led_controller led1(.int_osc(int_osc), .reset(reset), .s(s), .led(led));
+>>>>>>> d8c1dbb14e90cb7df1ded4a6b94d1e5f8544a18a
     seg_decoder    seg1(.s(s), .seg(seg));
 
 endmodule
