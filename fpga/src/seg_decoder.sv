@@ -1,6 +1,6 @@
-//
-//
-//
+// Author: Troy Kaufman
+// Email: tkaufman@g.hmc.edu
+// 
 
 module seg_decoder (input logic [3:0] s,
                     output logic [6:0] seg);

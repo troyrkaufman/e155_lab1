@@ -1,37 +1,27 @@
-//
-//
-//
+// Author: Troy Kaufman
+// Email: tkaufman@g.hmc.edu
+// This module creates a clock divider that blinks an LED at 2.5 Hz. XOR and AND logic is performed on LEDs 0 and 1 respectively. 
 
-/*module led_controller (input logic int_osc, reset,
+module led_controller (input logic int_osc, reset,
                         input logic [3:0] s,
                         output logic [2:0] led);
-*/
+				
+    logic [24:0] counter;
 
-module led_controller (input reset,
-                        input logic [3:0] s,
-                        output logic [2:0] led);
-    logic [23:0] counter;
-	
-	logic int_osc;
-    // Internal high-speed oscillator
-	HSOSC #(.CLKHF_DIV(2'b01)) hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
-
-    //create a clock divider to set led[2] at 2.4 Hz
-    //clk is set at 48 MHz
-    always_ff @(posedge int_osc)
-        begin
-            //48MHz / 2.4Hz = 20 million...
-            //Waiting 20 million clock cycles will produce a 2.4 Hz signal
-            if (reset)
+    //create a clock divider to set led[2] at 2.4 Hz. Clock is set t 48 MHz
+    always_ff @(posedge int_osc) begin
+            //48MHz / (2.4Hz * 2) = 10 million...
+            //Waiting 10 million clock cycles will produce a 2.4 Hz signal. A 2.403 Hz signal was observed on the oscilloscope. 
+            if (~reset) 
                 begin
                     counter <= 0;
 					led[2] <= 0;
                 end
-            else if (counter == 'd20000000) 
+            else if (counter == 'd10000000) 
                 begin 
                     counter <= 0;
                     led[2] <= ~led[2];
-                end
+                end 
             else  
 				begin
 					counter <= counter + 1;
