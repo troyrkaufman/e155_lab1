@@ -10,11 +10,10 @@ module lab1_tk (input logic reset,
             output logic [2:0] led,
             output logic [6:0] seg);
 
-    logic int_osc;
-    // Internal high-speed oscillator
-	HSOSC #(.CLKHF_DIV(2'b01)) hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
+    
 
-    led_controller led1(.int_osc(int_osc), .reset(reset), .s(s), .led(led));
+   // led_controller led1(.int_osc(int_osc), .reset(reset), .s(s), .led(led));
+   led_controller led1(.reset(reset), .s(s), .led(led));
     seg_decoder    seg1(.s(s), .seg(seg));
 
 endmodule

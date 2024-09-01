@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2022.3 2022.07, Jul 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Program Files/Modelsim/examples
+vlab1_tk
+Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z1 !s110 1725146016
+!i10b 1
+!s100 eYj7W<:RFa]9NCbe4FgBK2
+IKd@UG;zTk79BC1Gl1=MQ`1
+S1
+Z2 dC:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1
+w1725143871
+8C:\Users\tkaufman\my_designs\e155_lab1_tk\e155_lab1\fpga\src\lab1_tk.sv
+FC:\Users\tkaufman\my_designs\e155_lab1_tk\e155_lab1\fpga\src\lab1_tk.sv
+!i122 0
+L0 8 13
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OP;L;2022.3;75
+r1
+!s85 0
+31
+Z5 !s108 1725146016.000000
+!s107 C:\Users\tkaufman\my_designs\e155_lab1_tk\e155_lab1\fpga\src\lab1_tk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\tkaufman\my_designs\e155_lab1_tk\e155_lab1\fpga\src\lab1_tk.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vlab1_tk_tb
+R0
+R1
+!i10b 1
+!s100 _boo_ekiHXTS5z2f><_:11
+I5YY_QCSKPo>moF0]iWYTi2
+S1
+R2
+w1725143808
+8C:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/lab1_tk_tb.sv
+FC:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/lab1_tk_tb.sv
+!i122 1
+L0 3 25
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/lab1_tk_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/lab1_tk_tb.sv|
+!i113 1
+R6
+R7
+vled_controller
+R0
+R1
+!i10b 1
+!s100 NJ_>7@A6O61O`TPmm>mQz2
+IAPCc;DfgC02k@G>jWN0?o2
+S1
+R2
+w1725145891
+8C:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/led_controller.sv
+FC:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/led_controller.sv
+!i122 2
+L0 5 37
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/led_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/led_controller.sv|
+!i113 1
+R6
+R7
+vseg_decoder
+R0
+R1
+!i10b 1
+!s100 1SIaIn7I0g0Zm2G1;5Yf?2
+ITF]h]:fZ7bkKe8i8LKhWh2
+S1
+R2
+w1725144909
+8C:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/seg_decoder.sv
+FC:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/seg_decoder.sv
+!i122 3
+L0 5 26
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/seg_decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab1_tk/e155_lab1/fpga/src/seg_decoder.sv|
+!i113 1
+R6
+R7
