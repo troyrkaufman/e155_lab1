@@ -8,12 +8,12 @@
     into ModelSim. A ~48 Mhz clock was made to replace it.
 */
 
-module led_controller_tb();
+module lab1_tk_tb();
     logic clk, reset;
     logic [3:0] s;
     logic [2:0] led;
 
-    led_controller dut(clk, reset, s, led);
+    lab1_tk dut(clk, reset, s, led);
 
     // Create clock with 20.8 ns period ~48 MHz
     always 

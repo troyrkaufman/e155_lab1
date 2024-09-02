@@ -10,7 +10,7 @@ module seg_decoder_tb ();
     logic [3:0] s;
     logic [6:0] seg;
 
-    seg_decoder_tb dut (s, seg);
+    seg_decoder dut (s, seg);
 
     initial 
         begin   
