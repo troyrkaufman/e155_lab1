@@ -4,7 +4,8 @@
 /*
     This is a system testbench that will need the reader to verify the outputs in simulation. This stimulates the design by
     providing switch inputs with all possibilities (2^4). The reader will need to use an oscilloscope to verify led[2]'s
-    frequency. Note that the HSOSC instantiation is not present. There was difficulty
+    frequency. Note that the HSOSC instantiation is not present. There was difficulty bringing the lattice radiant library
+    into ModelSim. A ~48 Mhz clock was made to replace it.
 */
 
 module led_controller_tb();
@@ -14,7 +15,7 @@ module led_controller_tb();
 
     led_controller dut(clk, reset, s, led);
 
-    // Create clock with 20.8 ns period ~ 48 MHz
+    // Create clock with 20.8 ns period ~48 MHz
     always 
         begin 
             clk = 1; #10.4; clk = 0; #10.4;
