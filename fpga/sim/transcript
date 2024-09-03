@@ -16,3 +16,261 @@ vsim -gui work.seg_decoder_tb
 # Error loading design
 # End time: 12:57:49 on Sep 02,2024, Elapsed time: 0:00:01
 # Errors: 1, Warnings: 7
+# Compile of lab1_tk.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of seg_decoder.sv was successful.
+# Compile of lab1_tk_tb.sv was successful.
+# Compile of led_controller_tb.sv was successful.
+# Compile of seg_decoder_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.seg_decoder_tb
+# vsim -gui work.seg_decoder_tb 
+# Start time: 13:00:55 on Sep 02,2024
+# Loading sv_std.std
+# Loading work.seg_decoder_tb
+# Loading work.seg_decoder
+add wave -position end  sim:/seg_decoder_tb/s
+add wave -position end  sim:/seg_decoder_tb/seg
+run 1000 ns
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 2 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+exit
+quit -sim
+# End time: 13:03:07 on Sep 02,2024, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 2
+vsim -gui work.led_controller_tb
+# vsim -gui work.led_controller_tb 
+# Start time: 13:03:24 on Sep 02,2024
+# Loading sv_std.std
+# Loading work.led_controller_tb
+# Loading work.led_controller
+add wave -position end  sim:/led_controller_tb/clk
+add wave -position end  sim:/led_controller_tb/led
+add wave -position end  sim:/led_controller_tb/reset
+add wave -position end  sim:/led_controller_tb/s
+add wave -position end  sim:/led_controller_tb/dut/reset
+run 50 ns
+add wave -position end  sim:/led_controller_tb/dut/counter
+# Can't move the Now cursor.
+restart -f
+run 500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of lab1_tk.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of seg_decoder.sv was successful.
+# Compile of lab1_tk_tb.sv was successful.
+# Compile of led_controller_tb.sv was successful.
+# Compile of seg_decoder_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.led_controller_tb
+# Loading work.led_controller
+run 100 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+run 1 us
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+quit -sim
+# End time: 13:09:41 on Sep 02,2024, Elapsed time: 0:06:17
+# Errors: 0, Warnings: 1
+# Compile of lab1_tk.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of seg_decoder.sv was successful.
+# Compile of lab1_tk_tb.sv was successful.
+# Compile of led_controller_tb.sv was successful.
+# Compile of seg_decoder_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.led_controller_tb
+# vsim -gui work.led_controller_tb 
+# Start time: 13:10:54 on Sep 02,2024
+# Loading sv_std.std
+# Loading work.led_controller_tb
+# Loading work.led_controller
+add wave -position end  sim:/led_controller_tb/clk
+add wave -position end  sim:/led_controller_tb/led
+add wave -position end  sim:/led_controller_tb/reset
+add wave -position end  sim:/led_controller_tb/s
+add wave -position end  sim:/led_controller_tb/dut/counter
+# Can't move the Now cursor.
+run 1000 ns
+# Compile of lab1_tk.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of seg_decoder.sv was successful.
+# Compile of lab1_tk_tb.sv was successful.
+# Compile of led_controller_tb.sv was successful.
+# Compile of seg_decoder_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of lab1_tk.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of seg_decoder.sv was successful.
+# Compile of lab1_tk_tb.sv was successful.
+# Compile of led_controller_tb.sv was successful.
+# Compile of seg_decoder_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.led_controller_tb
+# Loading work.led_controller
+run 1000 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of lab1_tk.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of seg_decoder.sv was successful.
+# Compile of lab1_tk_tb.sv was successful.
+# Compile of led_controller_tb.sv was successful.
+# Compile of seg_decoder_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.led_controller_tb
+# Loading work.led_controller
+# ** Error: (vsim-3043) Unresolved reference to 'ns'.
+#    Time: 0 ps  Iteration: 0  Instance: /led_controller_tb File: C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/led_controller_tb.sv Line: 20
+# Compile of lab1_tk.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of seg_decoder.sv was successful.
+# Compile of lab1_tk_tb.sv was successful.
+# Compile of led_controller_tb.sv was successful.
+# Compile of seg_decoder_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -gui work.led_controller_tb
+# vsim -gui work.led_controller_tb 
+# Start time: 13:10:54 on Sep 02,2024
+# Loading sv_std.std
+# Loading work.led_controller_tb
+# Loading work.led_controller
+# ** Error: (vsim-3043) Unresolved reference to 'ns'.
+#    Time: 0 ps  Iteration: 0  Instance: /led_controller_tb File: C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/led_controller_tb.sv Line: 20
+# Error loading design
+# End time: 22:00:27 on Sep 02,2024, Elapsed time: 8:49:33
+# Errors: 2, Warnings: 2
+# Compile of lab1_tk.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of seg_decoder.sv was successful.
+# Compile of lab1_tk_tb.sv was successful.
+# Compile of led_controller_tb.sv was successful.
+# Compile of seg_decoder_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.led_controller_tb
+# vsim -gui work.led_controller_tb 
+# Start time: 22:02:14 on Sep 02,2024
+# Loading sv_std.std
+# Loading work.led_controller_tb
+# Loading work.led_controller
+run 500 ns
+vsim -t ns topmod
+# End time: 22:07:49 on Sep 02,2024, Elapsed time: 0:05:35
+# Errors: 0, Warnings: 2
+# vsim -t ns topmod 
+# Start time: 22:07:49 on Sep 02,2024
+# ** Error: (vsim-3170) Could not find 'topmod'.
+#         Searched libraries:
+#             C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/sim/work
+# Error loading design
+# End time: 22:07:50 on Sep 02,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+git status
+# On branch main
+# Your branch is up to date with 'origin/main'.
+# 
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git restore <file>..." to discard changes in working directory)
+# 	modified:   e155_lab1_simulation.cr.mti
+# 	modified:   e155_lab1_simulation.mpf
+# 	modified:   transcript
+# 	modified:   work/_info
+# 	modified:   work/_lib.qdb
+# 	deleted:    work/_lib1_0.qdb
+# 	deleted:    work/_lib1_0.qpg
+# 	deleted:    work/_lib1_0.qtl
+# 	modified:   ../src/led_controller.sv
+# 	modified:   ../tb/lab1_tk_tb.sv
+# 	modified:   ../tb/led_controller_tb.sv
+# 
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+# 	vsim.wlf
+# 	work/_lib1_2.qdb
+# 	work/_lib1_2.qpg
+# 	work/_lib1_2.qtl
+# 	../src/led_controller.sv.bak
+# 	../tb/lab1_tk_tb.sv.bak
+# 	../tb/led_controller_tb.sv.bak
+# 
+# no changes added to commit (use "git add" and/or "git commit -a")
+vsim -t ns work.led_controller_tb
+# vsim -t ns work.led_controller_tb 
+# Start time: 22:08:26 on Sep 02,2024
+# Loading sv_std.std
+# Loading work.led_controller_tb
+# Loading work.led_controller
+add wave -position end  sim:/led_controller_tb/clk
+add wave -position end  sim:/led_controller_tb/led
+add wave -position end  sim:/led_controller_tb/reset
+add wave -position end  sim:/led_controller_tb/s
+add wave -position end  sim:/led_controller_tb/dut/counter
+run 500 ns
+restart -f
+run 1000
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+run 2000 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+run 1000 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+git branch
+#   changes
+# * main
+git status
+# On branch main
+# Your branch is up to date with 'origin/main'.
+# 
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git restore <file>..." to discard changes in working directory)
+# 	modified:   e155_lab1_simulation.cr.mti
+# 	modified:   e155_lab1_simulation.mpf
+# 	modified:   transcript
+# 	modified:   work/_info
+# 	modified:   work/_lib.qdb
+# 	deleted:    work/_lib1_0.qdb
+# 	deleted:    work/_lib1_0.qpg
+# 	deleted:    work/_lib1_0.qtl
+# 	modified:   ../src/led_controller.sv
+# 	modified:   ../tb/lab1_tk_tb.sv
+# 	modified:   ../tb/led_controller_tb.sv
+# 
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+# 	vsim.wlf
+# 	work/_lib1_2.qdb
+# 	work/_lib1_2.qpg
+# 	work/_lib1_2.qtl
+# 	../src/led_controller.sv.bak
+# 	../tb/lab1_tk_tb.sv.bak
+# 	../tb/led_controller_tb.sv.bak
+# 
+# no changes added to commit (use "git add" and/or "git commit -a")

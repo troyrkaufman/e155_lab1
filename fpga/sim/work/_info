@@ -11,7 +11,7 @@ cModel Technology
 dC:/intelFPGA/20.1
 vlab1_tk
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1725307048
+Z1 !s110 1725339718
 !i10b 1
 !s100 _R9zA<f_^g<^ChmeoB>Bi1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,115 +22,140 @@ Z4 dC:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/sim
 Z5 w1725297371
 8C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/lab1_tk.sv
 FC:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/lab1_tk.sv
-!i122 0
+!i122 48
 L0 7 15
 Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1725307048.000000
+!s108 1725339717.000000
 !s107 C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/lab1_tk.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/lab1_tk.sv|
 !i113 1
-Z8 o-work work -sv
-Z9 tCvgOpt 0
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vlab1_tk_tb
+R0
+R1
+!i10b 1
+!s100 n2G=M:gGzk7bT8zlY[:4J0
+R2
+IEFYkPbL9WM0TKQ4@28jP<1
+R3
+S1
+R4
+w1725339368
+8C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/lab1_tk_tb.sv
+FC:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/lab1_tk_tb.sv
+!i122 51
+L0 11 37
+R6
+r1
+!s85 0
+31
+Z9 !s108 1725339718.000000
+!s107 C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/lab1_tk_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/lab1_tk_tb.sv|
+!i113 1
+R7
+R8
 vled_controller
 R0
 R1
 !i10b 1
-!s100 RAhGWB[QREH?:La^W^cjO3
+!s100 U8lzQP[lBb3c`kKzlYYj_3
 R2
-IoamW=lS[=MMiG<zE0WHa73
+IT`mmRVEBo;Z;Zg8gZ3Kgd0
 R3
 S1
 R4
-R5
+w1725307839
 8C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/led_controller.sv
 FC:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/led_controller.sv
-!i122 1
+!i122 49
 L0 5 32
 R6
 r1
 !s85 0
 31
-R7
+R9
 !s107 C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/led_controller.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/led_controller.sv|
 !i113 1
+R7
 R8
-R9
 vled_controller_tb
 R0
 R1
 !i10b 1
-!s100 Ez5JHiAf5CL1=J1Z=`]W[1
+!s100 FA]ZEbC`M9e5^NGh02K6l2
 R2
-ITc4`_R3HLTDon10i6;9Y52
+IMKBQOmPkPQE0BZToOQO:>2
 R3
 S1
 R4
-R5
+w1725339714
 8C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/led_controller_tb.sv
 FC:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/led_controller_tb.sv
-!i122 4
+!i122 52
 L0 10 37
 R6
 r1
 !s85 0
 31
-R7
+R9
 !s107 C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/led_controller_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/led_controller_tb.sv|
 !i113 1
+R7
 R8
-R9
 vseg_decoder
 R0
 R1
 !i10b 1
 !s100 emkSTOdN5SHd=6efZCNdg2
 R2
-I58LQaC4PA5MXCMOa?9C7e2
+I<f9W1WImXN_l[I>3H<HFg2
 R3
 S1
 R4
 R5
-8C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/seg_decoder.sv
-FC:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/seg_decoder.sv
-!i122 2
+8C:\Users\troyk\hmc-e155-labs\lab1_tk\fpga\src\seg_decoder.sv
+FC:\Users\troyk\hmc-e155-labs\lab1_tk\fpga\src\seg_decoder.sv
+!i122 50
 L0 5 26
 R6
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/seg_decoder.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/src/seg_decoder.sv|
-!i113 1
-R8
 R9
+!s107 C:\Users\troyk\hmc-e155-labs\lab1_tk\fpga\src\seg_decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\troyk\hmc-e155-labs\lab1_tk\fpga\src\seg_decoder.sv|
+!i113 1
+R7
+R8
 vseg_decoder_tb
 R0
 R1
 !i10b 1
-!s100 cnj@eW;4TdmY?OkSbkO=m1
+!s100 g;ggHf9IDjcN7D0]]KnT62
 R2
-IMEl:S_AmEdmHdc5k@[<@<0
+I=mdhCIll@X:Na2SRo?ABW2
 R3
 S1
 R4
-R5
-8C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/seg_decoder_tb.sv
-FC:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/seg_decoder_tb.sv
-!i122 5
+w1725307121
+8C:\Users\troyk\hmc-e155-labs\lab1_tk\fpga\tb\seg_decoder_tb.sv
+FC:\Users\troyk\hmc-e155-labs\lab1_tk\fpga\tb\seg_decoder_tb.sv
+!i122 53
 L0 9 26
 R6
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/seg_decoder_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/troyk/hmc-e155-labs/lab1_tk/fpga/tb/seg_decoder_tb.sv|
-!i113 1
-R8
 R9
+!s107 C:\Users\troyk\hmc-e155-labs\lab1_tk\fpga\tb\seg_decoder_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\troyk\hmc-e155-labs\lab1_tk\fpga\tb\seg_decoder_tb.sv|
+!i113 1
+R7
+R8
