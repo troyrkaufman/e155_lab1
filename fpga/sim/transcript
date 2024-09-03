@@ -274,3 +274,21 @@ git status
 # 	../tb/led_controller_tb.sv.bak
 # 
 # no changes added to commit (use "git add" and/or "git commit -a")
+git add .
+# warning: in the working copy of 'fpga/sim/work/_info', LF will be replaced by CRLF the next time Git touches it
+git commit -m"Fixed testbenches"
+# error: pathspec 'testbenches"' did not match any file(s) known to git
+git commit -mFixed testbenches
+# error: pathspec 'testbenches' did not match any file(s) known to git
+git commit -m"Fixed_testbenches"
+# [main c5253fa] "Fixed_testbenches"
+#  11 files changed, 334 insertions(+), 51 deletions(-)
+#  create mode 100644 fpga/sim/vsim.wlf
+#  delete mode 100644 fpga/sim/work/_lib1_0.qpg
+#  delete mode 100644 fpga/sim/work/_lib1_0.qtl
+#  rename fpga/sim/work/{_lib1_0.qdb => _lib1_2.qdb} (95%)
+#  create mode 100644 fpga/sim/work/_lib1_2.qpg
+#  create mode 100644 fpga/sim/work/_lib1_2.qtl
+git push origin main
+# To https://github.com/troyrkaufman/e155_lab1.git
+#    9fd1d58..c5253fa  main -> main
