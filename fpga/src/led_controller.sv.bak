@@ -15,7 +15,7 @@ module led_controller (input logic int_osc, reset,
             if (~reset) 
                 begin
                     counter <= 0;
-		    led[2] <= 0;
+					led[2] <= 0;
                 end
             else if (counter == 'd10000000)  
                 begin 
@@ -23,10 +23,10 @@ module led_controller (input logic int_osc, reset,
                     led[2] <= ~led[2];
                 end 
             else  
-		begin
-		     counter <= counter + 1;
-		     led[2] <= led[2];
-		end
+				begin
+					counter <= counter + 1;
+					led[2] <= led[2];
+				end
         end
 
     //perform logic for led[1:0]

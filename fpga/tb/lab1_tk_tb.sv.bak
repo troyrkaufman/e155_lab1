@@ -3,7 +3,7 @@
 // 9/2/24
 /*
     This is a system testbench that will need the reader to verify the outputs in simulation. This stimulates the design by
-    providing switch inputs that exhausts all possibilities (2^4). The reader will need to use an oscilloscope to verify led[2]'s
+    providing switch inputs with all possibilities (2^4). The reader will need to use an oscilloscope to verify led[2]'s
     frequency. Note that the HSOSC instantiation is not present. There was difficulty bringing the lattice radiant library
     into ModelSim. 
 

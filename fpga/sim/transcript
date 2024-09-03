@@ -292,3 +292,12 @@ git commit -m"Fixed_testbenches"
 git push origin main
 # To https://github.com/troyrkaufman/e155_lab1.git
 #    9fd1d58..c5253fa  main -> main
+git add .
+git commit -m"Code_formatting"
+# [main da96738] "Code_formatting"
+#  2 files changed, 19 insertions(+), 8 deletions(-)
+git push origin main
+# To https://github.com/troyrkaufman/e155_lab1.git
+#    c5253fa..da96738  main -> main
+# End time: 23:25:44 on Sep 02,2024, Elapsed time: 1:17:18
+# Errors: 0, Warnings: 1
